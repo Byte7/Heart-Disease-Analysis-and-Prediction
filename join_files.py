@@ -28,8 +28,10 @@ for input_file in input_files:
             output.write(corrected_line+"\n")
             total_output += 1
             nlines_through += 1
-    print('Transferred %i out of %i records from %s' % (nlines_through, nlines_total, input_file))
+    print 'Transferred %i out of %i records from %s' % (nlines_through,
+                                                        nlines_total,
+                                                        input_file)
     input.close()
-print('Total records read in: %i' % total_input)
-print('Total records written out to %s: %i' % (output_file, total_output))
+print 'Total records read in: %i' % total_input
+print 'Total records written out to %s: %i' % (output_file, total_output)
 output.close()
