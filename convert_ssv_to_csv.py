@@ -22,5 +22,5 @@ for line in input_file:
 input_file.close()
 output_file.close()
 
-print '\n%i records transferred from %s to %s' % (input_record, file1, file2)
+print('\n%i records transferred from %s to %s' % (input_record, file1, file2))
 
