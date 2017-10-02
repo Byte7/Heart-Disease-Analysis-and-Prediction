@@ -1,7 +1,2 @@
-
-.idea/workspace.xml
-.idea/dictionaries/aksha.xml
-.idea/Heart-Disease-Analysis-and-Prediction.iml
-.idea/vcs.xml
-.idea/misc.xml
-.idea/modules.xml
+.ipynb_checkpoints
+original_datasets
